@@ -35,10 +35,6 @@ const Heroes = () => {
             search: search
         }
 
-        if (search.search !== '') {
-            dispatch(setPage(1))
-        }
-
         dispatch(fetchHeroes(query))
     }, [filter, search, page])
 
