@@ -1,0 +1,22 @@
+.header{
+    background-color: #fff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1{
+    font-size: 48px;
+}
+
+@media all and (max-width: 768px) {
+    .h1{
+        font-size: 36px;
+    }
+}
+@media all and (max-width: 425px) {
+    .h1{
+        font-size: 26px;
+    }
+}
